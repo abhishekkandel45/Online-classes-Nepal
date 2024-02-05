@@ -134,7 +134,7 @@ svg{
 
   /* Media Queries */
 
-  @media (min-width: 640px){
+  @media (min-width: 480px) and (max-width: 640px){
     .main-title h1{
         font-size: 5rem;
         text-transform: uppercase;
@@ -151,7 +151,7 @@ svg{
      
     }
      
-    @media (min-width: 768px){
+    @media (min-width: 640px) and (max-width: 768px){
         .main-title h1{
             font-size: 6rem;
             text-transform: uppercase;
@@ -168,7 +168,7 @@ svg{
      
     }
      
-    @media (min-width: 1024px){
+    @media (min-width: 768px) and (max-width: 1024px){
      
         .main-title h1{
             font-size: 7rem;
@@ -185,7 +185,7 @@ svg{
      
     }
      
-    @media (min-width: 1200px){
+    @media (min-width: 1024px) and (max-width: 1200px){
      
         .main-title h1{
             font-size: 8rem;
@@ -207,4 +207,24 @@ svg{
         }
         
      
+    }
+
+    @media (max-width: 480px) {
+        .main-title h1{
+            font-size: 4rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #555;
+        }
+        
+        .main-title h2{
+            font-size: 2.5rem;
+            font-weight: 300;
+            text-transform: uppercase;
+        }
+    
+        .main-title{
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+        }
     }
